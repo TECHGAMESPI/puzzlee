@@ -61,6 +61,7 @@
 }
 
 .chatbot-response {
+  color: black;
   font-size: 16px;
   background-color: #fff;
   padding: 10px;
