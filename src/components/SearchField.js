@@ -54,13 +54,13 @@ const SearchField = () => {
           type="text"
           value={searchImage}
           onChange={handleSearchChange}
-          placeholder="Pesquise qualquer coisa ..."
+          placeholder="Search Anything..."
           className="search-input"
         />
         <button type="button" className="mic-button" onClick={handleListen}>
           🎤
         </button>
-        <button type="submit" className="search-button">Pesquisar</button>
+        <button type="submit" className="search-button">Search</button>
       </form>
     </div>
   );
